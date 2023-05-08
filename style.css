@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  transition: 0.2s;
 }
 
 .toggle {
@@ -19,6 +20,7 @@ body {
   height: 60px;
   border-radius: 50px;
   cursor: pointer;
+  transition: 0.2s;
 }
 .checkbox {
   display: none;
@@ -36,6 +38,7 @@ body {
   height: 45px;
   border-radius: 50%;
   margin: 7px;
+  transition: 0.2s;
 }
 /* ---- ---- Light Mode ---- ---- */
 .light {
@@ -63,10 +66,10 @@ body {
   box-shadow: 3px 3px 3px #0e131b, -3px -3px 3px #1c2739;
 }
 .dark .icon--light {
-  color: #151d2a;
+  color: #fafafa;
 }
 .dark .icon--dark {
-  color: #fafafa;
+  color: #0e131b;
 }
 .dark .ball {
   background-color: #fafafa;
